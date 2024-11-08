@@ -1,9 +1,11 @@
 {
   "name": "emp-trk-mod-12",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
   "keywords": [],
   "author": "",
@@ -11,7 +13,8 @@
   "description": "",
   "dependencies": {
     "console.table": "^0.10.0",
-    "inquirer": "^12.0.1",
-    "mysql2": "^3.11.3"
+    "dotenv": "^16.4.5",
+    "inquirer": "^8.2.4",
+    "pg": "^8.13.1"
   }
 }
